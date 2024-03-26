@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Toc-Toe-Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <h1>Tic Toc Toe</h1>
+    </header>
+    <main>
+        <div class="beforewin" >
+            <div class="afterwin">
+                <div id="winmsg">
+                    WIN....
+                </div>
+                <div class="contain-playAgain">
+                    <button id="playAgain">Play again</button>
+                </div>
+            </div>
+        </div>
+        <div class="game-container">
+            <span class="turnmsg">
+               Palyer X's turn
+            </span>
+            <div class="container">
+                <div class="gameBox">
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                    <button class="gameBoxBtn"></button>
+                </div>
+                
+            </div>
+            <div class="contain-reset">
+                <button id="reset">reset</button>
+            </div>
+
+        </div>
+        <div class="clickaudio"></div>
+        <div class="winaudio"></div>
+        <div class="drowaudio"></div>
+    </main>
+    <script src="game.js"></script>
+</body>
+</html>
