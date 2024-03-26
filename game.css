@@ -3,12 +3,20 @@
     margin: 0%;
 }
 body{
-    background-color: antiquewhite;
     text-align: center;
 }
 header{
-    margin: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+}
+.name{
+    background-color: rgb(250, 224, 78);
+    font-size: 3rem;
+    text-shadow:0 0 10px rgb(203, 126, 126);
+    padding: 0.8rem;
+    border-radius: 2rem;
+    border: 4px solid rgb(6, 214, 58);
+    color: rgb(240, 11, 152);
 }
 .container{
     display: flex;
@@ -88,3 +96,9 @@ button:hover{
     font-size: 3rem;
     box-shadow:0 0 5px black;
 }
+
+@media (max-width: 320px) {
+    * {
+      font-size:80%;
+    }
+  }
